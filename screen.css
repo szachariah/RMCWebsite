@@ -2,20 +2,37 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* stylelint-disable*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-/* stylelint-enable */
 
-/* Begin site styles below */
-
-/* Base */
-/*
-  Using an 18/22 base typographic setting, according to a 4:3 modular scale
-  http://www.modularscale.com/?18&px&1.333
-*/
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* End Reset CSS */
+/* Begin Site Styles */
+/* Start user CSS */
 html {
-  font-size: 1.125em; /* 18 / 16 = 1.125 */
+	font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.222 */
   text-rendering: optimizeLegibility;
   -moz-text-size-adjust: 100%;
@@ -28,7 +45,6 @@ body {
   padding-right: 1.222em; /* 22 / 18 = 1.222 */
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
 }
-
 h1,h2,h3,p {
   padding-bottom: 1.222em;
 }
@@ -42,35 +58,7 @@ h2 {
   padding-bottom: 0.689em; /* 22 / 31.984 = 0.689 */
   text-align: center;
 }
-h3 {
-  font-weight: bold;
-  padding-top: 1.222em; /* 22 / 18 = 1.222 */
-  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-}
-li {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-}
-ul,ol {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-  color: red;
-}
-ul {
-  list-style-type: square;
-}
-ol {
-  list-style-type: decimal;
-}
-li > ul,
-li > ol {
-  padding-top:  0.611em; /* 11 / 18 = 0.611 */
-  padding-left: 1.222em; /* 22 / 18 = 1.222 */
-  padding-bottom: 0;
-}
-li li:last-child {
-  padding-bottom: 0;
-}
 
-/* Layout */
 #navigation {
   position: absolute;
   top: 0;
@@ -82,7 +70,9 @@ li li:last-child {
   float: left;
 }
 
+/* Layout */
 /* Modular */
+
 nav ul {
   list-style-type: none;
 }
@@ -94,10 +84,9 @@ nav a {
   text-align: center;
   text-decoration: none;
 }
-img {
-/*image-resolution: 10%from-image; */
-	display: block;
-	max-width: 30%;
-	margin-left: auto;
-	margin-right: auto;
+
+#intropara {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
 }
