@@ -23,3 +23,19 @@ small brushless motors to maintain a lightweight design and give us the extra
 power to traverse the Martian terrain. In order to power the robot, we plan to
 use Lithium-Polymer battery packs which allow high current draw rate, which
 would be ideal for our drive system.
+
+
+Our team is comprised of 3 sub-teams: Mechanical, Electrical, Autonomy.
+Each team is comprised of various disciplines from the Illinois Institute of Technology.
+
+Competition objective: Build a fully-functioning mining robot that can traverse
+the aggressive Martian terrain. 
+
+Team Awards:
+Scarlet Space Hawks placed 3rd in the Mining Category (2017)
+
+Sponsors
+
+Scarlet Space Hawks is proudly sponsored by the companies below.
+Please support these companies and organizations in any way you can, as a
+thank you for the incredible support of our team!
