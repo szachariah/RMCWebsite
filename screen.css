@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 /* End Reset CSS */
 /* Begin Site Styles */
 /* Start user CSS */
+
 html {
 	font-family: sans-serif;
 	font-size: 1.125em; /* 18 / 16 = 1.125 */
@@ -42,7 +43,8 @@ html {
   text-size-adjust: 100%;
 }
 body {
-	background-image: url("https://i.ytimg.com/vi/iSMvAAUTj1A/maxresdefault.jpg");
+	/*background-image: url("https://i.ytimg.com/vi/iSMvAAUTj1A/maxresdefault.jpg");*/
+	background-image: url("space.jpg");
   padding-top: 3.666em; /* 66 / 18 = 3.666 */
   padding-right: 1.222em; /* 22 / 18 = 1.222 */
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
