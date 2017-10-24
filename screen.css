@@ -100,6 +100,28 @@ nav a {
   text-decoration: none;
 }
 
+#team h2, #sponsors h1 {
+	line-height: 1.2em;
+	font-weight: bold;
+  color: red;
+  text-align: center;
+	font-size: 1.5em;
+}
+
+#subteams h1 {
+	line-height: 1.2em;
+	font-weight: bold;
+  color: red;
+  text-align: left;
+	font-size: 1.5em;
+}
+
+#objective h1, #awards h1 {
+	font-size: 1.5em;
+	font-style: normal;
+	text-align: left;
+}
+
 #intropara {
 	font-size: 1.125em;
 	/*padding-bottom: 1.5em;*/
@@ -110,14 +132,6 @@ nav a {
 	margin-right: auto;
 	text-align: center;
 	width: 99%;
-}
-
-#team h2 {
-	line-height: 1.2em;
-	font-weight: bold;
-  color: red;
-  text-align: center;
-	font-size: 1.5em;
 }
 
 #subteams {
@@ -134,14 +148,6 @@ nav a {
 	width: 99%;
 }
 
-#subteams h1 {
-	line-height: 1.2em;
-	font-weight: bold;
-  color: red;
-  text-align: left;
-	font-size: 1.5em;
-}
-
 #objective {
 	padding-top: 1.5em;
 	font-size: 1.125em;
@@ -156,12 +162,6 @@ nav a {
 	width: 99%;
 }
 
-#objective h1 {
-	font-size: 1.5em;
-	font-style: normal;
-	text-align: left;
-}
-
 #awards {
 	padding-top: 1.5em;
 	font-size: 1.125em;
@@ -173,12 +173,6 @@ nav a {
 	margin-right: auto;
 	text-align: left;
 	width: 99%;
-}
-
-#awards h1 {
-	font-size: 1.5em;
-	font-style: normal;
-	text-align: left;
 }
 
 #awards img {
@@ -200,11 +194,6 @@ nav a {
 	width: 99%;
 }
 
-#sponsors h1 {
-	font-size: 1.5em;
-	font-style: normal;
-}
-
 #introduction .img-circle {
   display: block;
 	border-radius: 50%;
@@ -218,7 +207,7 @@ nav a {
 	width: 100%;
 }
 
-@media screen and (min-width: 1800px){
+@media screen and (min-width: 768px){
 
 	#intropara {
 		font-size: 1.125em;
@@ -321,53 +310,7 @@ nav a {
 		width: 100%;
 	}
 
-@media screen and (min-width: 768px){
-	#intropara {
-		width: 85%;
-	}
-	#team figure {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 80vh
-	}
-		#subteams{
-			padding-right: 1em;
-			padding-left: 8.37em;
-			width: 40%;
-			float: left;
-		}
-		#subteams h1 {
-			padding-right: em;
-			width: 40%;
-			float: left
-			padding-bottom: 1em;
-		}
-		#objective {
-			padding-top: 1em;
-			padding-right: 8.1em;
-			width: 40%;
-			float: left;
-		}
-		#objective h1 {
-			width: 100%;
-			float: left;
-		}
-	  #awards {
-		width: 40%;
-		padding-right: 5em;
-		float: left;
-	}
-	  #awards h1 {
-		width: 100%;
-		float: left;
-	}
-
-	#sponsors h1 {
-		padding-top: 25em;
-	}
-
-	@media screen and (min-width: 400px){
+@media screen and (min-width: 400px){
 		#intropara {
 			width: 85%;
 		}
@@ -379,7 +322,7 @@ nav a {
 		}
 			#subteams{
 				padding-right: 1em;
-				padding-left: 8.37em;
+				padding-left: 5em;
 				width: 40%;
 				float: left;
 			}
@@ -391,7 +334,7 @@ nav a {
 			}
 			#objective {
 				padding-top: 1em;
-				padding-right: 8.1em;
+				padding-right: 3em;
 				width: 40%;
 				float: left;
 			}
@@ -401,7 +344,7 @@ nav a {
 			}
 		  #awards {
 			width: 40%;
-			padding-right: 5em;
+			padding-right: 3em;
 			float: left;
 		}
 		  #awards h1 {
@@ -410,7 +353,7 @@ nav a {
 		}
 
 		#sponsors h1 {
-			padding-top: 26em;
+			padding-top: 22.5em;
 		}
 		#sponsors {
 			width: 85%;
