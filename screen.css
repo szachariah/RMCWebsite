@@ -43,8 +43,8 @@ html {
   text-size-adjust: 100%;
 }
 body {
-	/*background-image: url("https://i.ytimg.com/vi/iSMvAAUTj1A/maxresdefault.jpg");*/
 	background-image: url("space.jpg");
+	background-attachment: fixed;
   padding-top: 3.666em; /* 66 / 18 = 3.666 */
   padding-right: 1.222em; /* 22 / 18 = 1.222 */
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
@@ -56,19 +56,17 @@ h1,h2,h3,p {
 h1 {
 	line-height: 1.2em;
 	font-weight: bold;
-  color: red;
+  color: #FF2E2E;
   text-align: center;
 	font-size: 2.5em;
 }
 
 #introduction h1 {
 	font-size: 1em;
-	font-style: italic;
 }
 
 h2 {
 	line-height: 1.2em;
-	/*padding-top: 1.5em;*/
 	font-weight: bold;
   color: white;
   text-align: center;
@@ -98,6 +96,7 @@ nav a {
   padding-top: 0.611em; /* 11 / 18 = 0.611 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
   background-color: grey;
+	color: #FF2E2E;
   text-align: center;
   text-decoration: none;
 }
@@ -105,7 +104,7 @@ nav a {
 #team h2, #sponsors h1 {
 	line-height: 1.2em;
 	font-weight: bold;
-  color: red;
+  color: #FF2E2E;
   text-align: center;
 	font-size: 1.5em;
 }
@@ -113,7 +112,7 @@ nav a {
 #subteams h1 {
 	line-height: 1.2em;
 	font-weight: bold;
-  color: red;
+  color: #FF2E2E;
   text-align: left;
 	font-size: 1.5em;
 }
@@ -124,12 +123,16 @@ nav a {
 	text-align: left;
 }
 
+figcaption, footer {
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+	color: white;
+}
+
 #intropara {
 	font-size: 1.125em;
-	/*padding-bottom: 1.5em;*/
 	color: white;
-	font-style: italic;
-  /*background-color: red;*/
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -137,13 +140,12 @@ nav a {
 }
 
 #subteams {
+	list-style-type: square;
+	padding-left: 1em;
 	padding-top: 1em;
 	font-size: 1.125em;
 	line-height: 1.5em;
-	/*padding-bottom: 1.5em;*/
 	color: white;
-	font-style: italic;
-	/*background-color: blue;*/
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -151,13 +153,11 @@ nav a {
 }
 
 #objective {
+	list-style-type: square;
 	padding-top: 1.5em;
 	font-size: 1.125em;
 	line-height: 1.5em;
-	/*padding-bottom: 1.5em;*/
 	color: white;
-	font-style: italic;
-	/*background-color: blue;*/
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -165,12 +165,10 @@ nav a {
 }
 
 #awards {
+	list-style-type: square;
 	padding-top: 1.5em;
 	font-size: 1.125em;
-	/*padding-bottom: 1.5em;*/
 	color: white;
-	font-style: italic;
-	/*background-color: blue;*/
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -186,10 +184,7 @@ nav a {
 #sponsors {
 	padding-top: 1.5em;
 	font-size: 1.125em;
-	/*padding-bottom: 1.5em;*/
 	color: white;
-	font-style: italic;
-	/*background-color: blue;*/
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -201,11 +196,12 @@ nav a {
 	border-radius: 50%;
 	margin: auto;
 	height: 45vh;
-	padding-bottom: 1.5em;
+	border: 10px solid black;
 }
 
 #team img {
 	display: block;
+	color:white;
 	width: 100%;
 }
 
@@ -213,10 +209,7 @@ nav a {
 
 	#intropara {
 		font-size: 1.125em;
-		/*padding-bottom: 1.5em;*/
 		color: white;
-		font-style: italic;
-	  /*background-color: red;*/
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
@@ -226,10 +219,7 @@ nav a {
 	#subteams {
 		padding-top: 1.5em;
 		font-size: 1.125em;
-		/*padding-bottom: 1.5em;*/
 		color: white;
-		font-style: italic;
-		/*background-color: blue;*/
 		margin-left: auto;
 		margin-right: auto;
 		text-align: left;
@@ -239,10 +229,8 @@ nav a {
 	#objective {
 		padding-top: 1.5em;
 		font-size: 1.125em;
-		/*padding-bottom: 1.5em;*/
 		color: white;
-		font-style: italic;
-		/*background-color: blue;*/
+
 		margin-left: auto;
 		margin-right: auto;
 		text-align: left;
@@ -251,17 +239,14 @@ nav a {
 
 	#objective h1 {
 		font-size: 1.5em;
-		font-style: normal;
 		text-align: left;
 	}
 
 	#awards {
 		padding-top: 1.5em;
 		font-size: 1.125em;
-		/*padding-bottom: 1.5em;*/
 		color: white;
-		font-style: italic;
-		/*background-color: blue;*/
+
 		margin-left: auto;
 		margin-right: auto;
 		text-align: left;
@@ -270,7 +255,6 @@ nav a {
 
 	#awards h1 {
 		font-size: 1.5em;
-		font-style: normal;
 		text-align: left;
 	}
 
@@ -283,10 +267,7 @@ nav a {
 	#sponsors {
 		padding-top: 1.5em;
 		font-size: 1.125em;
-		/*padding-bottom: 1.5em;*/
 		color: white;
-		font-style: italic;
-		/*background-color: blue;*/
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
@@ -296,7 +277,6 @@ nav a {
 	#sponsors h1 {
 		padding-top: 1em;
 		font-size: 1.5em;
-		font-style: normal;
 	}
 
 	#introduction .img-circle {
@@ -304,7 +284,6 @@ nav a {
 		border-radius: 50%;
 		margin: auto;
 		height: 45vh;
-		padding-bottom: 1.5em;
 	}
 
 	#team img {
@@ -355,7 +334,7 @@ nav a {
 		}
 
 		#sponsors h1 {
-			padding-top: 22.5em;
+			padding-top: 23.5em;
 		}
 		#sponsors {
 			width: 85%;
